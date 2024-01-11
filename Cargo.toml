@@ -1,0 +1,13 @@
+[package]
+name = "glfw-engine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gl = "0.14.0"
+nalgebra-glm = "0.18.0"
+glcall_macro = { path = "glcall_macro" }
+
+[dependencies.glfw]
+version = "0.54.0"
+default-features = false
